@@ -29,16 +29,15 @@
   "author": "AliReza-Kamkar",
   "license": "MIT",
   "devDependencies": {
+    "eslint": "8.57.0",
     "@types/ua-parser-js": "^0.7.39",
-    "globals": "^15.2.0",
+    "@typescript-eslint/eslint-plugin": "^7.9.0",
     "hono": "^4.3.7",
     "tsup": "^8.0.2",
     "typescript": "^5.4.5",
     "vitest": "^1.6.0"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.9.0",
-    "eslint": "8.57.0",
     "ua-parser-js": "^1.0.37"
   }
 }
