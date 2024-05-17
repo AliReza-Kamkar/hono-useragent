@@ -1,6 +1,6 @@
 {
   "name": "hono-useragent",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "Hono UserAgent Middleware",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -30,7 +30,6 @@
   "license": "MIT",
   "devDependencies": {
     "eslint": "8.57.0",
-    "@types/ua-parser-js": "^0.7.39",
     "@typescript-eslint/eslint-plugin": "^7.9.0",
     "hono": "^4.3.7",
     "tsup": "^8.0.2",
@@ -38,6 +37,7 @@
     "vitest": "^1.6.0"
   },
   "dependencies": {
+    "@types/ua-parser-js": "^0.7.39",
     "ua-parser-js": "^1.0.37"
   }
 }
