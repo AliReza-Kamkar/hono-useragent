@@ -23,7 +23,8 @@
     "hono",
     "middleware",
     "useragent",
-    "useragent parser"
+    "useragent parser",
+    "bun"
   ],
   "author": "AliReza-Kamkar",
   "license": "MIT",
