@@ -2,7 +2,7 @@
 
 hono-useragent is a simple middleware that uses [ua-parser-js](https://www.npmjs.com/package/ua-parser-js) under the hood to parse useragent from request header with improved type safty.
 
-## Installation
+## Installation ⚙️
 You can install this package with bun
 ```bash
 bun install hono-useragent
@@ -12,7 +12,7 @@ or you can use npm with this command
 npm i hono-useragent
 ```
 
-## Usage overview
+## Usage overview ✨
 Simple hono app with useragent middleware
 ```ts
 import { Hono } from 'hono';
@@ -34,7 +34,7 @@ app.get('/', (c) => {
 });
 ```
 
-## UserAgent parameters
+## UserAgent parameters 📄
 As I mentioned before, we use <code>ua-parser-js</code> under the hood.
 You can use these parameters in <code>c.useragent</code> object.
 ```ts
@@ -48,7 +48,7 @@ os?.name           // 'Linux'
 os?.version        // 'x86_64' or kernel version like '6.5.0'
 ```
 
-## Running Tests
+## Running Tests 🐞
 Make sure you have installed <code>bun</code> and then run below command:
 ```bash
 bun run test
